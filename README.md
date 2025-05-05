@@ -9,6 +9,7 @@ Fine-tuning Mistral 24B Instruct with custom dataset. The dataset contains 56B t
   - [Quantization](#quantization)
   - [Low-rank adaptation](#low-rank-adaptation)
   - [Training process](#training-process)
+  - [Results](#results)
 - [File Structure](#file-structure)
 - [Dataset](#dataset)
 - [Libraries](#libraries)
@@ -55,9 +56,17 @@ Optimizer:
 
 The `dashboards` directory contains both the training and evaluation dashboards.
 
+#### Evaluation
+
 ![Evaluation](dashboards/evaluation.jpg)
 
+#### Training
+
 ![Training](dashboards/training.jpg)
+
+#### Inference
+
+![Inference](inference.jpg)
 
 ## File Structure
  - `train.ipynb`: Training proccess jupyter notebook
